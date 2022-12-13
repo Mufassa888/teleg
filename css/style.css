@@ -1,0 +1,24 @@
+/*:root {
+  --clr-bg: rgb(31, 31, 33);
+  --clr-accent: rgb(73, 108, 114);
+  --clr-accent-hover: rgb(47, 104, 115);
+  --clr-text-1: #ffffff;
+  --clr-text-2: #a3a3a3;
+  --clr-border: #393939;
+  --font: "Arial", "Roboto", sans-serif;
+}
+*/
+
+body {
+	background: var(--tg-theme-bg-color);
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+select {
+	padding: 6px 10px;
+}
+
